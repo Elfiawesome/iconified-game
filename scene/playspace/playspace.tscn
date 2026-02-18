@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://buuwddfrgsaha"]
+
+[ext_resource type="Script" uid="uid://dpgdl26cwr4ch" path="res://scene/playspace/playspace.gd" id="1_lkbkh"]
+[ext_resource type="PackedScene" uid="uid://dslkltoubllgn" path="res://scene/playspace/entity.tscn" id="2_s8wu4"]
+
+[node name="Playspace" type="Node2D" unique_id=2035426120]
+position = Vector2(32, 32)
+scale = Vector2(2, 2)
+script = ExtResource("1_lkbkh")
+
+[node name="Tiles" type="Node2D" parent="." unique_id=1050997978]
+
+[node name="Entities" type="Node2D" parent="." unique_id=1134340602]
+
+[node name="Entity" parent="Entities" unique_id=2075742493 instance=ExtResource("2_s8wu4")]

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dslkltoubllgn"]
+
+[ext_resource type="Script" uid="uid://xp37vr75gtrb" path="res://scene/playspace/entity.gd" id="1_86a8i"]
+[ext_resource type="Texture2D" uid="uid://wovb0fl548j6" path="res://asset/item/1_2.png" id="2_86a8i"]
+
+[node name="Entity" type="Node2D" unique_id=2075742493]
+script = ExtResource("1_86a8i")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1229396555]
+texture = ExtResource("2_86a8i")

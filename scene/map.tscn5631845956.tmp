@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://dclv6mcn0pdvr"]
-
-[ext_resource type="Script" uid="uid://cxgkoncbocdwm" path="res://scene/map.gd" id="1_rgtto"]
-
-[node name="Map" type="Node2D" unique_id=1007007294]
-script = ExtResource("1_rgtto")
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=2007983144]
-zoom = Vector2(2, 2)

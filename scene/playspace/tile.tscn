@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b32hva5r3178t"]
+
+[ext_resource type="Texture2D" uid="uid://dg51tcf6v5wku" path="res://asset/tile/tile_1_40.png" id="1_ogplb"]
+[ext_resource type="Script" uid="uid://bjli2sh7d315a" path="res://scene/playspace/tile.gd" id="1_pe1vc"]
+
+[node name="Tile" type="Node2D" unique_id=608920750]
+script = ExtResource("1_pe1vc")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=473901347]
+texture = ExtResource("1_ogplb")
