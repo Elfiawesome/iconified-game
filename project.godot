@@ -11,13 +11,13 @@ config_version=5
 [application]
 
 config/name="iconified"
-run/main_scene="uid://buuwddfrgsaha"
+run/main_scene="uid://6erfmqptnq1y"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-Registry="*uid://suvqkqx82awv"
+Registry="*uid://co18waj1nfuik"
 
 [debug]
 

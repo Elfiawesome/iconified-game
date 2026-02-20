@@ -3,8 +3,6 @@
 [ext_resource type="Script" uid="uid://byp3pl18qrswa" path="res://scene/playspace/playspace.gd" id="1_5xckp"]
 
 [node name="Playspace" type="Node2D" unique_id=1764974766]
-position = Vector2(32, 32)
-scale = Vector2(2, 2)
 script = ExtResource("1_5xckp")
 
 [node name="Tiles" type="Node2D" parent="." unique_id=1882416304]
